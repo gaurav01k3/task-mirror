@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 15rem;
+  background-color: grey;
+}
+
+.footer__text {
+  font-size: 4rem;
+  line-height: 15rem;
+  font-weight: 700;
+}

@@ -1,0 +1,10 @@
+.class_box {
+  /* border: 3px solid red; */
+  margin: 1rem;
+}
+
+.class_boxText {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}

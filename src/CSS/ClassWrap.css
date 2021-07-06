@@ -1,0 +1,43 @@
+.class__container {
+  /* border: 3px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: rgba(128, 128, 128, 0.637);
+}
+
+.class__header {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.class__header h3 {
+  font-size: 2rem;
+}
+
+button {
+  width: 10rem;
+  height: 100%;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.class__vidWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+  /* border: 4px solid pink; */
+}
+
+@media screen and (max-width: 780px) {
+  .class__vidWrapper {
+    width: 100%;
+  }
+}
